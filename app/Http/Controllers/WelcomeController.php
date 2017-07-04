@@ -9,11 +9,15 @@ use App\Http\Controllers\Controller;
 
 class WelcomeController extends Controller
 {
+
     public function index()
     {
         return view('welcome');
     }
     public function contact(){
         return view("contact");
+    }
+    public function originindex(){
+        return view("origin");
     }
 }

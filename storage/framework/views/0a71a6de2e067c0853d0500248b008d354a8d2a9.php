@@ -69,17 +69,17 @@
             <?php if(Route::has('login')): ?>
                 <div class="top-right links">
                     <?php if(Auth::check()): ?>
-                        <a href="<?php echo e(url('/home')); ?>">Home</a>
+                        <a href="<?php echo e(url('/home')); ?>">ホーム</a>
                     <?php else: ?>
-                        <a href="<?php echo e(url('/login')); ?>">Login</a>
-                        <a href="<?php echo e(url('/register')); ?>">Register</a>
+                        <a href="<?php echo e(url('/login')); ?>">ログイン</a>
+                        <a href="<?php echo e(url('/register')); ?>">登録</a>
                     <?php endif; ?>
                 </div>
             <?php endif; ?>
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    SMARCHE
                 </div>
 
                 <div class="links">
@@ -88,6 +88,7 @@
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="login">login</a>
                 </div>
             </div>
         </div>

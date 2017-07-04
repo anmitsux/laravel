@@ -1,11 +1,6 @@
 <!-- app/resources/view/contact.blade.php -->
+@extends('layouts.app')
 
-<!DOCTYPE HTML>
-<html>
-<head>
-    <title>Contact</title>
-</head>
-<body>
+@section('content')
     <h1>Contact me!</h1>
-</body>
-</html>
+@endsection
